@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="can_data_link_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="can_data_link_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="10515744950425fs"></ZoomEndTime>
+      <Cursor1Time time="75490000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="202" />
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/can_clk" type="logic">
+      <obj_property name="ElementShortName">can_clk</obj_property>
+      <obj_property name="ObjectShortName">can_clk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/can_phy_rx" type="logic">
+      <obj_property name="ElementShortName">can_phy_rx</obj_property>
+      <obj_property name="ObjectShortName">can_phy_rx</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/can_phy_tx" type="logic">
+      <obj_property name="ElementShortName">can_phy_tx</obj_property>
+      <obj_property name="ObjectShortName">can_phy_tx</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/system_initilization_done" type="logic">
+      <obj_property name="ElementShortName">system_initilization_done</obj_property>
+      <obj_property name="ObjectShortName">system_initilization_done</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/can_init_enable" type="logic">
+      <obj_property name="ElementShortName">can_init_enable</obj_property>
+      <obj_property name="ObjectShortName">can_init_enable</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/can_init_done" type="logic">
+      <obj_property name="ElementShortName">can_init_done</obj_property>
+      <obj_property name="ObjectShortName">can_init_done</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/tx_dw1r" type="array">
+      <obj_property name="ElementShortName">tx_dw1r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_dw1r[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/tx_dw2r" type="array">
+      <obj_property name="ElementShortName">tx_dw2r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_dw2r[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/tx_valid" type="logic">
+      <obj_property name="ElementShortName">tx_valid</obj_property>
+      <obj_property name="ObjectShortName">tx_valid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/tx_ready" type="logic">
+      <obj_property name="ElementShortName">tx_ready</obj_property>
+      <obj_property name="ObjectShortName">tx_ready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/rx_dw1r" type="array">
+      <obj_property name="ElementShortName">rx_dw1r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dw1r[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/rx_dw2r" type="array">
+      <obj_property name="ElementShortName">rx_dw2r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dw2r[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/rx_valid" type="logic">
+      <obj_property name="ElementShortName">rx_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_valid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/rx_ready" type="logic">
+      <obj_property name="ElementShortName">rx_ready</obj_property>
+      <obj_property name="ObjectShortName">rx_ready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_init_enable_in" type="logic">
+      <obj_property name="ElementShortName">can_init_enable_in</obj_property>
+      <obj_property name="ObjectShortName">can_init_enable_in</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_init_done_out" type="logic">
+      <obj_property name="ElementShortName">can_init_done_out</obj_property>
+      <obj_property name="ObjectShortName">can_init_done_out</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/wr_addr_out" type="array">
+      <obj_property name="ElementShortName">wr_addr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_out[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/wr_data_out" type="array">
+      <obj_property name="ElementShortName">wr_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/wr_enable_out" type="logic">
+      <obj_property name="ElementShortName">wr_enable_out</obj_property>
+      <obj_property name="ObjectShortName">wr_enable_out</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/wr_done_in" type="logic">
+      <obj_property name="ElementShortName">wr_done_in</obj_property>
+      <obj_property name="ObjectShortName">wr_done_in</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/wr_busy_in" type="logic">
+      <obj_property name="ElementShortName">wr_busy_in</obj_property>
+      <obj_property name="ObjectShortName">wr_busy_in</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/rd_addr_out" type="array">
+      <obj_property name="ElementShortName">rd_addr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_out[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/rd_enable_out" type="logic">
+      <obj_property name="ElementShortName">rd_enable_out</obj_property>
+      <obj_property name="ObjectShortName">rd_enable_out</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/rd_done_in" type="logic">
+      <obj_property name="ElementShortName">rd_done_in</obj_property>
+      <obj_property name="ObjectShortName">rd_done_in</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/rd_data_in" type="array">
+      <obj_property name="ElementShortName">rd_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_in[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/fsm_cs" type="array">
+      <obj_property name="ElementShortName">fsm_cs[5:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_cs[5:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/fsm_ns" type="array">
+      <obj_property name="ElementShortName">fsm_ns[5:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_ns[5:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_config_index_r" type="array">
+      <obj_property name="ElementShortName">can_config_index_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">can_config_index_r[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_rd_data_r" type="array">
+      <obj_property name="ElementShortName">can_rd_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">can_rd_data_r[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_rd_addr_r" type="array">
+      <obj_property name="ElementShortName">can_rd_addr_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">can_rd_addr_r[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_rd_enable_r" type="logic">
+      <obj_property name="ElementShortName">can_rd_enable_r</obj_property>
+      <obj_property name="ObjectShortName">can_rd_enable_r</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/sr_acfbsy_w" type="logic">
+      <obj_property name="ElementShortName">sr_acfbsy_w</obj_property>
+      <obj_property name="ObjectShortName">sr_acfbsy_w</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_wr_addr_r" type="array">
+      <obj_property name="ElementShortName">can_wr_addr_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">can_wr_addr_r[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_wr_data_r" type="array">
+      <obj_property name="ElementShortName">can_wr_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">can_wr_data_r[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_wr_enable_r" type="logic">
+      <obj_property name="ElementShortName">can_wr_enable_r</obj_property>
+      <obj_property name="ObjectShortName">can_wr_enable_r</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/can_init_done_r" type="logic">
+      <obj_property name="ElementShortName">can_init_done_r</obj_property>
+      <obj_property name="ObjectShortName">can_init_done_r</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/MSR_ADDR" type="array">
+      <obj_property name="ElementShortName">MSR_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MSR_ADDR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/MSR_VALUE" type="array">
+      <obj_property name="ElementShortName">MSR_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MSR_VALUE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/BRPR_ADDR" type="array">
+      <obj_property name="ElementShortName">BRPR_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BRPR_ADDR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/BRPR_VALUE" type="array">
+      <obj_property name="ElementShortName">BRPR_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRPR_VALUE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/BTR_ADDR" type="array">
+      <obj_property name="ElementShortName">BTR_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BTR_ADDR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/BTR_VALUE" type="array">
+      <obj_property name="ElementShortName">BTR_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BTR_VALUE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/AFR_ADDR" type="array">
+      <obj_property name="ElementShortName">AFR_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AFR_ADDR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/SR_ADDR" type="array">
+      <obj_property name="ElementShortName">SR_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SR_ADDR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/AFMR1_ADDR" type="array">
+      <obj_property name="ElementShortName">AFMR1_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AFMR1_ADDR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/AFMR1_VALUE" type="array">
+      <obj_property name="ElementShortName">AFMR1_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AFMR1_VALUE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/AFIR1_ADDR" type="array">
+      <obj_property name="ElementShortName">AFIR1_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AFIR1_ADDR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/AFIR1_VALUE" type="array">
+      <obj_property name="ElementShortName">AFIR1_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AFIR1_VALUE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/IER_ADDDR" type="array">
+      <obj_property name="ElementShortName">IER_ADDDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IER_ADDDR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/IER_VALUE" type="array">
+      <obj_property name="ElementShortName">IER_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IER_VALUE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/SRR_ADDR" type="array">
+      <obj_property name="ElementShortName">SRR_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SRR_ADDR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/SRR_VALUE" type="array">
+      <obj_property name="ElementShortName">SRR_VALUE[22:0]</obj_property>
+      <obj_property name="ObjectShortName">SRR_VALUE[22:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/FSM_IDLE" type="array">
+      <obj_property name="ElementShortName">FSM_IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_IDLE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/FSM_INIT1" type="array">
+      <obj_property name="ElementShortName">FSM_INIT1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_INIT1[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/FSM_SR_POLL" type="array">
+      <obj_property name="ElementShortName">FSM_SR_POLL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_SR_POLL[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/FSM_ACFBSY_WAIT" type="array">
+      <obj_property name="ElementShortName">FSM_ACFBSY_WAIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_ACFBSY_WAIT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/FSM_INIT2" type="array">
+      <obj_property name="ElementShortName">FSM_INIT2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_INIT2[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_init_inst/FSM_INIT_DONE" type="array">
+      <obj_property name="ElementShortName">FSM_INIT_DONE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_INIT_DONE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/wr_addr_in" type="array">
+      <obj_property name="ElementShortName">wr_addr_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_in[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/wr_data_in" type="array">
+      <obj_property name="ElementShortName">wr_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_in[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/wr_enable_in" type="logic">
+      <obj_property name="ElementShortName">wr_enable_in</obj_property>
+      <obj_property name="ObjectShortName">wr_enable_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/wr_done_out" type="logic">
+      <obj_property name="ElementShortName">wr_done_out</obj_property>
+      <obj_property name="ObjectShortName">wr_done_out</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/wr_busy_out" type="logic">
+      <obj_property name="ElementShortName">wr_busy_out</obj_property>
+      <obj_property name="ObjectShortName">wr_busy_out</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/rd_addr_in" type="array">
+      <obj_property name="ElementShortName">rd_addr_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_in[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/rd_enable_in" type="logic">
+      <obj_property name="ElementShortName">rd_enable_in</obj_property>
+      <obj_property name="ObjectShortName">rd_enable_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/rd_data_out" type="array">
+      <obj_property name="ElementShortName">rd_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/rd_done_out" type="logic">
+      <obj_property name="ElementShortName">rd_done_out</obj_property>
+      <obj_property name="ObjectShortName">rd_done_out</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/rd_busy_out" type="logic">
+      <obj_property name="ElementShortName">rd_busy_out</obj_property>
+      <obj_property name="ObjectShortName">rd_busy_out</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_awaddr_out" type="array">
+      <obj_property name="ElementShortName">s_axi_awaddr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr_out[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_awvalid_out" type="logic">
+      <obj_property name="ElementShortName">s_axi_awvalid_out</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid_out</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_awready_in" type="logic">
+      <obj_property name="ElementShortName">s_axi_awready_in</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_wdata_out" type="array">
+      <obj_property name="ElementShortName">s_axi_wdata_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_wstrb_out" type="array">
+      <obj_property name="ElementShortName">s_axi_wstrb_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb_out[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_wvalid_in" type="logic">
+      <obj_property name="ElementShortName">s_axi_wvalid_in</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_wready_in" type="logic">
+      <obj_property name="ElementShortName">s_axi_wready_in</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_bresp_in" type="logic">
+      <obj_property name="ElementShortName">s_axi_bresp_in</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_bvalid_in" type="logic">
+      <obj_property name="ElementShortName">s_axi_bvalid_in</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_bready_out" type="logic">
+      <obj_property name="ElementShortName">s_axi_bready_out</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready_out</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_araddr_out" type="array">
+      <obj_property name="ElementShortName">s_axi_araddr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr_out[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_arvalid_out" type="logic">
+      <obj_property name="ElementShortName">s_axi_arvalid_out</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid_out</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_arready_in" type="logic">
+      <obj_property name="ElementShortName">s_axi_arready_in</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_rdata_in" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata_in[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_rresp_in" type="array">
+      <obj_property name="ElementShortName">s_axi_rresp_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp_in[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_rvalid_in" type="logic">
+      <obj_property name="ElementShortName">s_axi_rvalid_in</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/s_axi_rready_out" type="logic">
+      <obj_property name="ElementShortName">s_axi_rready_out</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready_out</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/axi_awaddr_r" type="array">
+      <obj_property name="ElementShortName">axi_awaddr_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr_r[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/axi_awvalid_r" type="logic">
+      <obj_property name="ElementShortName">axi_awvalid_r</obj_property>
+      <obj_property name="ObjectShortName">axi_awvalid_r</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/axi_wdata_r" type="array">
+      <obj_property name="ElementShortName">axi_wdata_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wdata_r[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/axi_wstrb_r" type="array">
+      <obj_property name="ElementShortName">axi_wstrb_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wstrb_r[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/axi_wvalid_r" type="logic">
+      <obj_property name="ElementShortName">axi_wvalid_r</obj_property>
+      <obj_property name="ObjectShortName">axi_wvalid_r</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/axi_bready_r" type="logic">
+      <obj_property name="ElementShortName">axi_bready_r</obj_property>
+      <obj_property name="ObjectShortName">axi_bready_r</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/wr_done_r" type="logic">
+      <obj_property name="ElementShortName">wr_done_r</obj_property>
+      <obj_property name="ObjectShortName">wr_done_r</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/wr_busy_r" type="logic">
+      <obj_property name="ElementShortName">wr_busy_r</obj_property>
+      <obj_property name="ObjectShortName">wr_busy_r</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/fsm_wr_cs" type="array">
+      <obj_property name="ElementShortName">fsm_wr_cs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_wr_cs[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/fsm_wr_ns" type="array">
+      <obj_property name="ElementShortName">fsm_wr_ns[4:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_wr_ns[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/axi_araddr_r" type="array">
+      <obj_property name="ElementShortName">axi_araddr_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr_r[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/axi_arvalid_r" type="logic">
+      <obj_property name="ElementShortName">axi_arvalid_r</obj_property>
+      <obj_property name="ObjectShortName">axi_arvalid_r</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/axi_rready_r" type="logic">
+      <obj_property name="ElementShortName">axi_rready_r</obj_property>
+      <obj_property name="ObjectShortName">axi_rready_r</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/rd_data_r" type="array">
+      <obj_property name="ElementShortName">rd_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_r[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/rd_done_r" type="logic">
+      <obj_property name="ElementShortName">rd_done_r</obj_property>
+      <obj_property name="ObjectShortName">rd_done_r</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/rd_busy_r" type="logic">
+      <obj_property name="ElementShortName">rd_busy_r</obj_property>
+      <obj_property name="ObjectShortName">rd_busy_r</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/fsm_rd_cs" type="array">
+      <obj_property name="ElementShortName">fsm_rd_cs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_rd_cs[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/fsm_rd_ns" type="array">
+      <obj_property name="ElementShortName">fsm_rd_ns[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_rd_ns[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/FSM_WR_IDLE" type="array">
+      <obj_property name="ElementShortName">FSM_WR_IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_WR_IDLE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/FSM_WR_ADDR" type="array">
+      <obj_property name="ElementShortName">FSM_WR_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_WR_ADDR[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/FSM_WR_DATA" type="array">
+      <obj_property name="ElementShortName">FSM_WR_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_WR_DATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/FSM_WR_RESP" type="array">
+      <obj_property name="ElementShortName">FSM_WR_RESP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_WR_RESP[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/FSM_WR_DONE" type="array">
+      <obj_property name="ElementShortName">FSM_WR_DONE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_WR_DONE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/FSM_RD_IDLE" type="array">
+      <obj_property name="ElementShortName">FSM_RD_IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_RD_IDLE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/FSM_RD_ADDR" type="array">
+      <obj_property name="ElementShortName">FSM_RD_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_RD_ADDR[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/FSM_RD_DATA" type="array">
+      <obj_property name="ElementShortName">FSM_RD_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_RD_DATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/cmd_to_axi_lite_inst/FSM_RD_DONE" type="array">
+      <obj_property name="ElementShortName">FSM_RD_DONE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_RD_DONE[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/tx_dw1r_in" type="array">
+      <obj_property name="ElementShortName">tx_dw1r_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_dw1r_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/tx_dw2r_in" type="array">
+      <obj_property name="ElementShortName">tx_dw2r_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_dw2r_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/tx_valid_in" type="logic">
+      <obj_property name="ElementShortName">tx_valid_in</obj_property>
+      <obj_property name="ObjectShortName">tx_valid_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/tx_ready_out" type="logic">
+      <obj_property name="ElementShortName">tx_ready_out</obj_property>
+      <obj_property name="ObjectShortName">tx_ready_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rx_dw1r_out" type="array">
+      <obj_property name="ElementShortName">rx_dw1r_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dw1r_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rx_dw2r_out" type="array">
+      <obj_property name="ElementShortName">rx_dw2r_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dw2r_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rx_valid_out" type="logic">
+      <obj_property name="ElementShortName">rx_valid_out</obj_property>
+      <obj_property name="ObjectShortName">rx_valid_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rx_ready_in" type="logic">
+      <obj_property name="ElementShortName">rx_ready_in</obj_property>
+      <obj_property name="ObjectShortName">rx_ready_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/wr_addr_out" type="array">
+      <obj_property name="ElementShortName">wr_addr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/wr_data_out" type="array">
+      <obj_property name="ElementShortName">wr_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/wr_enable_out" type="logic">
+      <obj_property name="ElementShortName">wr_enable_out</obj_property>
+      <obj_property name="ObjectShortName">wr_enable_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/wr_done_in" type="logic">
+      <obj_property name="ElementShortName">wr_done_in</obj_property>
+      <obj_property name="ObjectShortName">wr_done_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/wr_busy_in" type="logic">
+      <obj_property name="ElementShortName">wr_busy_in</obj_property>
+      <obj_property name="ObjectShortName">wr_busy_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rd_addr_out" type="array">
+      <obj_property name="ElementShortName">rd_addr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rd_enable_out" type="logic">
+      <obj_property name="ElementShortName">rd_enable_out</obj_property>
+      <obj_property name="ObjectShortName">rd_enable_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rd_data_in" type="array">
+      <obj_property name="ElementShortName">rd_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rd_done_in" type="logic">
+      <obj_property name="ElementShortName">rd_done_in</obj_property>
+      <obj_property name="ObjectShortName">rd_done_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rd_busy_in" type="logic">
+      <obj_property name="ElementShortName">rd_busy_in</obj_property>
+      <obj_property name="ObjectShortName">rd_busy_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/ip2bus_intrevent_in" type="logic">
+      <obj_property name="ElementShortName">ip2bus_intrevent_in</obj_property>
+      <obj_property name="ObjectShortName">ip2bus_intrevent_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/fsm_cs" type="array">
+      <obj_property name="ElementShortName">fsm_cs[13:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_cs[13:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/fsm_ns" type="array">
+      <obj_property name="ElementShortName">fsm_ns[13:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_ns[13:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/can_isr_r" type="array">
+      <obj_property name="ElementShortName">can_isr_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">can_isr_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/tx_dw1r_cache" type="array">
+      <obj_property name="ElementShortName">tx_dw1r_cache[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_dw1r_cache[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/tx_dw2r_cache" type="array">
+      <obj_property name="ElementShortName">tx_dw2r_cache[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_dw2r_cache[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/tx_ready_r" type="logic">
+      <obj_property name="ElementShortName">tx_ready_r</obj_property>
+      <obj_property name="ObjectShortName">tx_ready_r</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rx_dw1r_r" type="array">
+      <obj_property name="ElementShortName">rx_dw1r_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dw1r_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rx_dw2r_r" type="array">
+      <obj_property name="ElementShortName">rx_dw2r_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dw2r_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rx_valid_r" type="logic">
+      <obj_property name="ElementShortName">rx_valid_r</obj_property>
+      <obj_property name="ObjectShortName">rx_valid_r</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/wr_addr_r" type="array">
+      <obj_property name="ElementShortName">wr_addr_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/wr_data_r" type="array">
+      <obj_property name="ElementShortName">wr_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/wr_enable_r" type="logic">
+      <obj_property name="ElementShortName">wr_enable_r</obj_property>
+      <obj_property name="ObjectShortName">wr_enable_r</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rd_addr_r" type="array">
+      <obj_property name="ElementShortName">rd_addr_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/rd_enable_r" type="logic">
+      <obj_property name="ElementShortName">rd_enable_r</obj_property>
+      <obj_property name="ObjectShortName">rd_enable_r</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_IDLE" type="array">
+      <obj_property name="ElementShortName">FSM_IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_IDLE[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_ISR_READ" type="array">
+      <obj_property name="ElementShortName">FSM_ISR_READ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_ISR_READ[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_ISR_ADJUST" type="array">
+      <obj_property name="ElementShortName">FSM_ISR_ADJUST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_ISR_ADJUST[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_DATA_ID_REC" type="array">
+      <obj_property name="ElementShortName">FSM_DATA_ID_REC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_DATA_ID_REC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_DATA_DLC_REC" type="array">
+      <obj_property name="ElementShortName">FSM_DATA_DLC_REC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_DATA_DLC_REC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_DATA_DW1_REC" type="array">
+      <obj_property name="ElementShortName">FSM_DATA_DW1_REC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_DATA_DW1_REC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_DATA_DW2_REC" type="array">
+      <obj_property name="ElementShortName">FSM_DATA_DW2_REC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_DATA_DW2_REC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_DATA_REC_UPDATE" type="array">
+      <obj_property name="ElementShortName">FSM_DATA_REC_UPDATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_DATA_REC_UPDATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_ISR_CLEAR" type="array">
+      <obj_property name="ElementShortName">FSM_ISR_CLEAR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_ISR_CLEAR[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_TX_ID" type="array">
+      <obj_property name="ElementShortName">FSM_TX_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_TX_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_TX_DLC" type="array">
+      <obj_property name="ElementShortName">FSM_TX_DLC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_TX_DLC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_TX_DW1" type="array">
+      <obj_property name="ElementShortName">FSM_TX_DW1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_TX_DW1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/FSM_TX_DW2" type="array">
+      <obj_property name="ElementShortName">FSM_TX_DW2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FSM_TX_DW2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/ISR_ADDR" type="array">
+      <obj_property name="ElementShortName">ISR_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ISR_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/ICR_ADDR" type="array">
+      <obj_property name="ElementShortName">ICR_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ICR_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/TX_ID_ADDR" type="array">
+      <obj_property name="ElementShortName">TX_ID_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TX_ID_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/TX_DLC_ADDR" type="array">
+      <obj_property name="ElementShortName">TX_DLC_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TX_DLC_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/TX_DW1_ADDR" type="array">
+      <obj_property name="ElementShortName">TX_DW1_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TX_DW1_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/TX_DW2_ADDR" type="array">
+      <obj_property name="ElementShortName">TX_DW2_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TX_DW2_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/RX_ID_ADDR" type="array">
+      <obj_property name="ElementShortName">RX_ID_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RX_ID_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/RX_DLC_ADDR" type="array">
+      <obj_property name="ElementShortName">RX_DLC_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RX_DLC_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/RX_DW1_ADDR" type="array">
+      <obj_property name="ElementShortName">RX_DW1_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RX_DW1_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/RX_DW2_ADDR" type="array">
+      <obj_property name="ElementShortName">RX_DW2_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RX_DW2_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/CAN_ID_VALUE" type="array">
+      <obj_property name="ElementShortName">CAN_ID_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CAN_ID_VALUE[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/CAN_DLC_VALUE" type="array">
+      <obj_property name="ElementShortName">CAN_DLC_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CAN_DLC_VALUE[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/can_clk" type="logic">
+      <obj_property name="ElementShortName">can_clk</obj_property>
+      <obj_property name="ObjectShortName">can_clk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/can_phy_rx" type="logic">
+      <obj_property name="ElementShortName">can_phy_rx</obj_property>
+      <obj_property name="ObjectShortName">can_phy_rx</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/can_phy_tx" type="logic">
+      <obj_property name="ElementShortName">can_phy_tx</obj_property>
+      <obj_property name="ObjectShortName">can_phy_tx</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/ip2bus_intrevent" type="logic">
+      <obj_property name="ElementShortName">ip2bus_intrevent</obj_property>
+      <obj_property name="ObjectShortName">ip2bus_intrevent</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_aclk" type="logic">
+      <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_aresetn" type="logic">
+      <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">s_axi_awaddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_awready" type="logic">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_wdata" type="array">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_wstrb" type="array">
+      <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_wready" type="logic">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_bresp" type="array">
+      <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_bready" type="logic">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_araddr" type="array">
+      <obj_property name="ElementShortName">s_axi_araddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_arready" type="logic">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_rdata" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_rresp" type="array">
+      <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/pmsm_can_unit/s_axi_rready" type="logic">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/can_data_link_sim/dut/can_data_trans_inst/tx_fifo_full_flag" type="logic">
+      <obj_property name="ElementShortName">tx_fifo_full_flag</obj_property>
+      <obj_property name="ObjectShortName">tx_fifo_full_flag</obj_property>
+   </wvobject>
+</wave_config>
